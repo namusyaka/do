@@ -5,7 +5,7 @@ path '../'
 gemspec
 
 platforms :jruby do
-  gem 'jdbc-sqlite3', '>=3.5.8'
+  gem 'jdbc-sqlite3', '~> 3.7.2'
   gem 'do_jdbc',      '0.10.14'
 end
 
